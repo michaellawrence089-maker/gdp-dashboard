@@ -125,8 +125,12 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("💼 Program Perhitungan Biaya Operasional Pengeboran Batubara")
-st.caption("Versi Streamlit - Program by: Tim Pengembangan KalkuBor")
+with st.container():
+    center = st.columns(3)[1]
+    with center:
+        st.image("C:\\Users\\Michael\\Documents\\LOGO.jpg", width=300)
+st.title("Program Perhitungan Biaya Operasional Pengeboran Batubara")
+st.caption("Program by: Kelompok 7 Berpikir Komputasional K-28")
 
 # INPUT IDENTITAS PENGGUNA
 col_nama, col_info = st.columns([2, 3])
