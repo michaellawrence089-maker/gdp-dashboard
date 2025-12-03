@@ -128,7 +128,7 @@ st.set_page_config(
 with st.container():
     center = st.columns(3)[1]
     with center:
-        st.image("C:\\Users\\Michael\\Documents\\LOGO.jpg", width=300)
+        st.image("C:/Users/Michael/Documents/kalkubor.jpg", width=300)
 st.title("Program Perhitungan Biaya Operasional Pengeboran Batubara")
 st.caption("Program by: Kelompok 7 Berpikir Komputasional K-28")
 
